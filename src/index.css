@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/****************** PROYECTO PERSONAL *******************/
+body{
+  font-family: 'Oxygen', sans-serif !important;
+}
+.align-self-center{
+  align-self: center;
+}
+@layer{
+  .icon-gen{
+    @apply duration-500  cursor-pointer hover:text-white
+     px-2 py-2 shadow-md  bg-indigo-400 rounded-sm
+  }
+  .bg-white-op {
+    --tw-bg-opacity: .3;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+  .focus\:ring-sky-500:focus {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: rgb(14 165 233 / var(--tw-ring-opacity));  
+  }
+  .focus\:ring-1:focus {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+  }
+}
+
+/***** ESTILOS DEL PROYECTO 02 *****/
+/*  
+.presentation-card{
+  background-color: white;
+  padding: 1rem;
+  width: min(400px, 100%);
+  aspect-ratio: 16/9;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.2);
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.presentation-card img{
+  width: 50%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.tooltip-text{
+  display: inline-block;
+  text-decoration: underline;
+}
+.tooltip{
+  position: absolute;
+  background-color: #000;
+  color: aliceblue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+#root{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.form>div{
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 6px;
+}
+
+[type="text"],
+[type="email"],
+textarea,
+button{
+  padding: 12px;
+}
+
+button{
+  display: block;
+  margin-top: -2em;
+  background-color: bisque;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.error-message{
+  background-color: rgba(200,50,50,0.5);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 5px;
+} */
