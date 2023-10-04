@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown} from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import project1 from '../assets/projectOne.png';
+import project1 from '../assets/maqueta.jpg';
+import project2 from '../assets/gallery.jpg';
 import imgInes from '../assets/perfil.jpg';
  
 function Proyectos(){
@@ -25,17 +26,17 @@ function Proyectos(){
                     {/* TITULO */}
                     <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
                         <div className='bg-black border-2 border-black'>
-                            <h4 className="text-center  font-semibold leading-7 pt-1 text-indigo-400 px-2">inesdev.com</h4>
+                            <h4 className="text-center  font-semibold leading-7 pt-1 text-indigo-400 px-2">Maquetas Plan Lector</h4>
                         </div>
                     </div>
-                    <p>Accede a mi proyecto de libros digitales, hecho con HTML, CSS Y JAVASCRIPT</p>
+                    <p>Maqueta realizada con HTML, CSS, Y JS, fui la encargada de realizar la maquetación de todas las obras de Plan Lector de la Editorial.</p>
                     <div className="gap-3 flex">
-                        <button className='hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
+                        <a href="https://maqueta-plan-lector.vercel.app" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                             Ver proyecto
-                        </button>
-                        <button className='hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm '>
+                        </a>
+                        {/* <button className='hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm '>
                         <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Ver código
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </div>
@@ -85,7 +86,7 @@ function Proyectos(){
         <div>
             <div  className="sm:flex sm:w-4/6 container gap-x-10 sm:flex-row-reverse mb-40">
                 <div className="sm:flex-1 my-4">
-                    <img alt="project1" src={project1}></img>
+                    <img alt="project1" src={project2}></img>
                 </div>
                 <div className="sm:flex-1 my-4  align-self-center">
                     {/* TITULO */}
@@ -96,12 +97,12 @@ function Proyectos(){
                     </div>
                     <p>Accede a mi proyecto de Galeria utilizando Grid Content</p>
                     <div className="gap-3 flex">
-                        <button className='hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
+                        <a href="grid-gallery-omega.vercel.app" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                             Ver proyecto
-                        </button>
-                        <button className='hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm '>
+                        </a>
+                        <a href="https://github.com/CeciliaInes/GridGallery" className='no-underline hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm '>
                         <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Ver código
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
