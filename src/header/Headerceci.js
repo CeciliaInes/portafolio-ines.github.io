@@ -7,7 +7,7 @@ import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
     const navigation = [
         { name: 'HOLA', href: '#hola', current: true },
         { name: 'PROYECTOS', href: '#proyectos', current: true },
-        { name: 'HABLEMOS', href: '#hablemos', current: true },
+        { name: 'CONTÁCTAME', href: '#contactame', current: true },
     ]
 
 function Headerceci() {
@@ -20,9 +20,9 @@ function Headerceci() {
     // Contenedor padre 
     <div id='hola' className='container'>
         <div className="mx-auto opacity-1">
-            <div className='grid grid-cols-3 gap-3 mx-auto h-20'>
+            <div className='flex flex-rows justify-between items-center gap-3 mx-auto h-20'>
                 <div className="center">
-                    <img alt='logo' width={250} src={imageLogo}></img>
+                    <img className='sm:w-60 w-40 h-auto' alt='logo' src={imageLogo}></img>
                 </div>
                 <div className="hidden lg:block">
                   <div className="flex space-x-4">
@@ -30,7 +30,7 @@ function Headerceci() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className=  ' text-black no-underline hover:text-gray-500 px-3 py-2 text-md font-medium'
+                        className=  ' text-black no-underline hover:text-gray-500 px-3 py-2 text-md font-bold'
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
@@ -39,23 +39,23 @@ function Headerceci() {
                   </div>
                 </div>
                 <a download={true} type='download' className='text-center' href={documentCV}>
-                    <button className='hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-lg text-sm '>
+                    <button className='hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-lg text-xs sm:text-sm'>
                     DESCARGAR CURRICULUM
                     </button>
                 </a>
             </div>
 
-            <div className="sm:flex container sm:flex-row-reverse  gap-5 pt-8 pb-8">
+            <div className="container sm:flex sm:flex-row-reverse gap-5 pt-8 pb-8">
                 
-                <div className='sm:flex-1 '>
-                    <img className='' width={500} alt='Foto Cecilia' src={imagenAvatar}></img>
+                <div className='sm:flex-1 mb-5 sm:mb-0'>
+                    <img className='max-w-xs sm:max-w-md m-auto' alt='Foto Cecilia' src={imagenAvatar}></img>
                 </div>
                 <div className='align-self-center sm:flex-1'>
-                    <p className='text-3xl font-normal'>¡Hola a todos!</p>
-                    <p className='text-5xl font-normal'>Soy {name}</p>
-                    <p className='text-md'>Me siento muy feliz
-                    de que hayas podido llegar a mi espacio<br></br> personal
-                    y que me puedas conocer profesionalmente.</p>
+                    <p className='md:text-3xl text-xl font-normal'>¡Hola a todos!</p>
+                    <p className='md:text-5xl text-3xl font-normal'>Soy {name}</p>
+                    <p className='text-md'>Desarrolladora de Software, estoy feliz que me puedas conocer un poco más.
+                    Scrollea y verás.
+                    </p>
                     <div className='flex flex-row gap-3'> 
                         <a href={gmail} className='text-black'> <FontAwesomeIcon className='icon-gen border-2 animate border-black hover:scale-90' icon={faEnvelope} size="md"/></a>
                         <FontAwesomeIcon  className='icon-gen border-2 animate border-black hover:scale-90' icon={faPhone} size="md"/>

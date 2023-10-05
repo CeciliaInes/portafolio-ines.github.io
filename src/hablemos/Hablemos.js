@@ -3,12 +3,14 @@ import imageLogo from '../assets/logo_ceci.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone} from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import Headerceci from '../header/Headerceci';
 
 function Hablemos(){
+    let linkedin = "https://www.linkedin.com/in/ines-castañeda-886a46212";
+    let twitter = "https://twitter.com/cecixna";
+    let gmail = "mailto:inescastaneda885@gmail.com";
     return (
         
-        <div id='hablemos' className="container mt-3">
+        <div id='contactame' className="container mt-3">
             
             <div class="w-4/5 md:w-2/5 mx-auto mb-5">
                     <div></div>
@@ -16,7 +18,7 @@ function Hablemos(){
                              
                                 <div className='border-l-[3px] border-b-[3px] border-white mb-3'>
                                     <div className='bg-black border-2 border-black'>
-                                        <h4 className="text-center font-semibold leading-7 pt-1 text-indigo-400 ">HABLEMOS</h4>
+                                        <h4 className="text-center font-semibold leading-7 pt-1 text-white ">Contáctame</h4>
                                     </div>
                                 </div>
                                 <p className="text-sm text-center leading-6 text-gray-600">Si está interesado en trabajar conmigo en su próximo proyecto,
@@ -89,10 +91,10 @@ function Hablemos(){
                             <p className='text-center'>Este sitio esta hecho con React, TailwindCSS y mucho AMOR para todos ustedes ♥</p>
                         </div>
                         <div className='flex align-self-center flex-row mx-auto gap-3 '> 
-                        <a href={Headerceci.gmail} className='text-black'> <FontAwesomeIcon className='icon-gen border-2 animate border-black hover:scale-90' icon={faEnvelope} size="md"/></a>
+                        <a href={gmail} className='text-black'> <FontAwesomeIcon className='icon-gen border-2 animate border-black hover:scale-90' icon={faEnvelope} size="md"/></a>
                         <FontAwesomeIcon  className='icon-gen border-2 animate border-black hover:scale-90' icon={faPhone} size="md"/>
-                        <a target='blank' href={Headerceci.linkedin} className='text-black'><FontAwesomeIcon  className='icon-gen border-2 animate border-black hover:scale-90' icon={faLinkedin} size="md"/></a>              
-                        <a target='blank' href={Headerceci.twitter} className='text-black'><FontAwesomeIcon className='icon-gen border-2 animate border-black hover:scale-90' icon={faTwitter} size="md"/></a>                   
+                        <a target='blank' href={linkedin} className='text-black'><FontAwesomeIcon  className='icon-gen border-2 animate border-black hover:scale-90' icon={faLinkedin} size="md"/></a>              
+                        <a target='blank' href={twitter} className='text-black'><FontAwesomeIcon className='icon-gen border-2 animate border-black hover:scale-90' icon={faTwitter} size="md"/></a>                   
                         </div>
             </div>
         </div>

@@ -13,7 +13,7 @@ import Hablemos from './hablemos/Hablemos';
 
 function App() {
   return (
-    <div className="bg-gradient-to-tr min-h-screen from-pink-200 via-pink-300 to-pink-400 pt-9 pb-9">
+    <div className="bg-gradient-to-tr min-h-screen from-pink-300 via-pink-100 to-pink-300 pt-9 pb-9">
       {
         
         <><style>
@@ -27,16 +27,3 @@ function App() {
 
 export default App;
 
-
-/* <p>Hola mundo, soy Ceci la proxima  programadora Full Stack ♥</p>
-      <PresentationCard/>
-      <Counter/>
-      <Temporizador/>
-          <FilterList/>
-      <div>
-        <p>Lorem este es mi tezto pero aqui quiero poner el <TooltipText tooltip={"Mensaje del Tooltip"}>tooltip</TooltipText>
-         Lorem este es mi tezto pero aqui quiero poner el <TooltipText tooltip={"Dice hola"}>Este es un mensaje</TooltipText></p>
-      </div>
-
-      <Formulario></Formulario> */
-    // HAcer un json en donde mi experiencia, trabajo y estudio y desde ahi jalar para mi web
