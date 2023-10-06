@@ -149,7 +149,7 @@ function Proyectos(){
                             </div>
                         </li>
                         <li className="flex relative flex-col gap-2 h-40">
-                            <div className="flex items-center gap-4 relative rounded-xl border-2 bg-indigo-200  py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/1">
+                            <div className="flex items-center gap-2 relative rounded-xl border-2 bg-indigo-200  py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/1">
                                 <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden   bg-gray-900/10 py-[11px] px-3">
                                         <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
                                 </span>
@@ -214,13 +214,13 @@ function Proyectos(){
                             </div>
                         </li>
                         <li className="flex relative flex-col gap-2 h-40">
-                            <div className="flex items-center gap-4 relative rounded-xl border-2 bg-indigo-200  py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/1">
+                            <div className="flex items-center gap-2 relative rounded-xl border-2 bg-indigo-200  py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/1">
                                 <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden   bg-gray-900/10 py-[11px] px-3">
                                         <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
                                 </span>
                                 <div className="flex flex-col gap-1">
                                     <h6 className="block antialiased tracking-normal font-sans 
-                                    text-base font-semibold leading-relaxed text-gray-700">Área 51</h6>
+                                    text-base font-semibold leading-relaxed text-gray-700">Área 51 Trainning</h6>
                                     <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">HTML, CSS Y JQUERY</p>
                                     <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2018</h2>
                                 </div>
