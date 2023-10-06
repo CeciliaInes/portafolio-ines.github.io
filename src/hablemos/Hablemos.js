@@ -3,8 +3,25 @@ import imageLogo from '../assets/logo_ceci.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function Hablemos(){
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_5sykaeg', 'template_kdsin8b', form.current, 'YEloQe7kRbAkOEBuj')
+          .then((result) => {
+              console.log(result.text);
+              form.current.reset()
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
+
+
     let linkedin = "https://www.linkedin.com/in/ines-castañeda-886a46212";
     let twitter = "https://twitter.com/cecixna";
     let gmail = "mailto:inescastaneda885@gmail.com";
@@ -14,9 +31,9 @@ function Hablemos(){
         
         <div id='contactame' className="container mt-3">
             
-            <div class="w-4/5 md:w-2/5 mx-auto mb-5">
-                    <div></div>
-                    <form>
+            <div className="w-4/5 md:w-2/5 mx-auto mb-5">
+                   
+                    <form ref={form} onSubmit={sendEmail}>
                              
                                 <div className='border-l-[3px] border-b-[3px] border-white mb-3'>
                                     <div className='bg-black border-2 border-black'>
@@ -32,8 +49,8 @@ function Hablemos(){
                                         </label>
                                         <div className="mt-1">
                                             <input
-                                            type="text"
-                                            name="first-name"
+                                            type='text'
+                                            name='user_name'
                                             id="first-name"
                                             className="block outline-none focus:ring-sky-500 w-full px-2 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset sm:text-sm sm:leading-6"
                                             />
@@ -48,8 +65,8 @@ function Hablemos(){
                                         <div className="mt-1">
                                             <input
                                             id="email"
-                                            name="email"
-                                            type="email"
+                                            name='user_email'
+                                            type='email'
                                             className="block w-full px-2 rounded-md border-0 outline-none py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                             />
                                         </div>
@@ -61,8 +78,8 @@ function Hablemos(){
                                         <div className="mt-1">
                                             <textarea
                                             id="message"
-                                            name="message"
-                                            type="message"
+                                            name='message'
+                                            type='message'
                                             className="block w-full px-2 rounded-md outline-none border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                             />
                                         </div>
@@ -72,11 +89,13 @@ function Hablemos(){
                             
                         <div className="grid grid-cols-1 py-1">
                             <button
-                            type="submit"
+                            type='submit'
+                            value='Send'
                             className="duration-300 hover:scale-90 text-white cursor-pointer rounded-3xl bg-indigo-400  shadow-lg text-sm border-2 border-black px-3 py-2 "
                             >
                             ENVIAR MENSAJE
                             </button>
+                            
                         </div>
                         
                     </form>
