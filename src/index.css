@@ -15,7 +15,12 @@ body{
   opacity: 1; 
   height: calc(100% - 44px);
 }
-
+.carousel-caption{
+  position: relative !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+ 
 @layer{
   .icon-gen{
     @apply duration-500  cursor-pointer hover:text-white

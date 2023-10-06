@@ -1,14 +1,8 @@
-// import PresentationCard from './PresentationCard';
-// import Temporizador from './temporizador/Temporizador';
-// import Counter from './counter/Counter';
 import Headerceci from './header/Headerceci';
 import Proyectos from './proyectos/Proyectos';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Hablemos from './hablemos/Hablemos';
-
-// import FilterList from './filter/FilterList';
-// import TooltipText from './tooltip/TooltipText';
-// import Formulario from './formulario/Formulario';
+import Testimonios from './testimonios/Testimonios';
 
 
 function App() {
@@ -18,7 +12,7 @@ function App() {
         
         <><style>
         @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
-        </style><Headerceci/><Proyectos/><Hablemos/></>
+        </style><Headerceci/><Proyectos/><Testimonios/><Hablemos/></>
       }
     </div>
     

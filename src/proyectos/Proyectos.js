@@ -3,7 +3,6 @@ import { faArrowDown, faPhone} from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import project1 from '../assets/maqueta.jpg';
 import project2 from '../assets/gallery.jpg';
-// import imgInes from '../assets/perfil.jpg';
  
 
 function Proyectos(){
@@ -20,13 +19,13 @@ function Proyectos(){
         
         {/* Item 1 de proyectos */}
         <div>
-            <div className=" sm:flex sm:w-4/6 container gap-x-10 sm:flex-row-reverse mb-20">
+            <div className=" sm:flex sm:w-4/6 container justify-around gap-x-4 sm:flex-row-reverse mb-20">
                 <div className="sm:flex-1 my-4 ">
-                    <img className="max-w-xs sm:max-w-sm m-auto" alt="project1" src={project1}></img>
+                    <img className="max-w-xs md:max-w-sm  m-auto" alt="project1" src={project1}></img>
                 </div>
                 <div className="sm:flex-1 my-4  align-self-center">
                     {/* TITULO */}
-                    <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
+                    <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max'>
                         <div className='bg-black border-2 border-black'>
                             <h4 className="text-center  font-semibold leading-7 pt-1 text-white px-2">MAQUETAS PLAN LECTOR</h4>
                         </div>
@@ -47,9 +46,9 @@ function Proyectos(){
 
         {/* Item 2 de proyectos */}
         <div>
-            <div  className="sm:flex sm:w-4/6 container gap-x-10 flex-row mb-20">
+            <div  className="sm:flex sm:w-4/6 justify-around container gap-x-4 flex-row mb-20">
                 <div className="sm:flex-1 my-4">
-                    <img className="max-w-xs sm:max-w-sm m-auto" alt="project1" src={project1}></img>
+                    <img className="max-w-xs md:max-w-sm m-auto" alt="project1" src={project1}></img>
                 </div>
                 <div className="sm:flex-1 my-4  align-self-center">
                     {/* TITULO */}
@@ -75,9 +74,9 @@ function Proyectos(){
 
         {/* Item 3 de proyectos */}
         <div>
-            <div  className="sm:flex sm:w-4/6 container gap-x-10 sm:flex-row-reverse mb-20">
+            <div  className="sm:flex sm:w-4/6 container justify-around gap-x-4 sm:flex-row-reverse mb-20">
                 <div className="sm:flex-1 my-4">
-                    <img className="max-w-xs sm:max-w-sm m-auto" alt="project1" src={project2}></img>
+                    <img className="max-w-xs md:max-w-sm m-auto" alt="project1" src={project2}></img>
                 </div>
                 <div className="sm:flex-1 my-4  align-self-center">
                     {/* TITULO */}
@@ -98,18 +97,7 @@ function Proyectos(){
                 </div>
             </div>
 
-            {/* TESTIMONIOS */}
-            {/* <Carousel>
-            <div  className="container">
-                <div className="bg-white-op rounded-lg p-10 md:p-16  md:mb-40 mb-20">
-                    <img className="w-16 rounded-full mx-auto mb-3" alt="text" src={imgInes}></img>
-                    <p className="text-center mb-3 text-md md:text-xl">"Realizar este diseño para presentar mis proyectos ha sido enriquecedor, 
-                    ya que es la primera vez que utilizo TailwindCSS, he aprendido a utilizar unos 
-                    de los frameworks más populares y excelentes para crear diseños webs."</p>
-                    <p className="text-md md:text-xl text-center text-gray-600">CECILIA CASTAÑEDA / DESARROLLADORA DE SOFTWARE / ANALISTA DE DATOS</p>
-                </div>
-            </div>
-            </Carousel> */}
+            
          
 
          {/* timeLime trabajos */}
@@ -203,9 +191,9 @@ function Proyectos(){
                                 </span>
                                 <div className="flex flex-col gap-1">
                                     <h6 className="block antialiased tracking-normal font-sans 
-                                    text-base font-semibold leading-relaxed text-gray-700">Editorial Santillana</h6>
-                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Soporte de plataformas</p>
-                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2022 - 2023</h2>
+                                    text-base font-semibold leading-relaxed text-gray-700">Laboratoria</h6>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Bootcamp Análisis de datos</p>
+                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2022</h2>
                                 </div>
                             </div>
                         </li>
@@ -219,9 +207,9 @@ function Proyectos(){
                                 </span>
                                 <div className="flex flex-col gap-1">
                                     <h6 className="block antialiased tracking-normal font-sans 
-                                    text-base font-semibold leading-relaxed text-gray-700">Ibella Group</h6>
-                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Community Manager</p>
-                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2021</h2>
+                                    text-base font-semibold leading-relaxed text-gray-700">ISIL</h6>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Desarrollo de Software</p>
+                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2019 - 2022</h2>
                                 </div>
                             </div>
                         </li>
@@ -232,9 +220,9 @@ function Proyectos(){
                                 </span>
                                 <div className="flex flex-col gap-1">
                                     <h6 className="block antialiased tracking-normal font-sans 
-                                    text-base font-semibold leading-relaxed text-gray-700">Visual Creative</h6>
-                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Maquetadora web</p>
-                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2018 - 2020</h2>
+                                    text-base font-semibold leading-relaxed text-gray-700">Área 51</h6>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">HTML, CSS Y JQUERY</p>
+                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2018</h2>
                                 </div>
                             </div>
                         </li>
