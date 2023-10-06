@@ -87,10 +87,10 @@ function Proyectos(){
                     </div>
                     <p>Accede a mi proyecto de Galeria utilizando Grid Content</p>
                     <div className="gap-3 flex">
-                        <a href="grid-gallery-omega.vercel.app" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
+                        <a href="https://grid-gallery-omega.vercel.app" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                             Ver proyecto
                         </a>
-                        <a href="https://github.com/CeciliaInes/GridGallery" className='no-underline hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm '>
+                        <a href="https://github.com/CeciliaInes/GridGallery" target="blank" className='no-underline hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm text-black'>
                         <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Ver código
                         </a>
                     </div>
