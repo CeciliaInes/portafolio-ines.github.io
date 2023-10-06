@@ -1,10 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown} from '@fortawesome/free-solid-svg-icons'
+import { faArrowDown, faPhone} from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import project1 from '../assets/maqueta.jpg';
 import project2 from '../assets/gallery.jpg';
-import imgInes from '../assets/perfil.jpg';
+// import imgInes from '../assets/perfil.jpg';
  
+
 function Proyectos(){
   
     return(
@@ -27,7 +28,7 @@ function Proyectos(){
                     {/* TITULO */}
                     <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
                         <div className='bg-black border-2 border-black'>
-                            <h4 className="text-center  font-semibold leading-7 pt-1 text-white px-2">Maquetas Plan Lector</h4>
+                            <h4 className="text-center  font-semibold leading-7 pt-1 text-white px-2">MAQUETAS PLAN LECTOR</h4>
                         </div>
                     </div>
                     <p >Maqueta realizada con HTML, CSS, Y JS, fui la encargada de realizar la maquetación de todas las obras de Plan Lector de la Editorial.</p>
@@ -54,7 +55,7 @@ function Proyectos(){
                     {/* TITULO */}
                     <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
                         <div className='bg-black border-2 border-black'>
-                            <h4 className="text-center  font-semibold leading-7 pt-1 text-white px-2">Multimedia</h4>
+                            <h4 className="text-center  font-semibold leading-7 pt-1 text-white px-2">MULTIMEDIA</h4>
                         </div>
                     </div>
                     <p>Accede a mi proyecto de libros digitales, hecho con HTML, CSS Y JAVASCRIPT</p>
@@ -98,6 +99,7 @@ function Proyectos(){
             </div>
 
             {/* TESTIMONIOS */}
+            {/* <Carousel>
             <div  className="container">
                 <div className="bg-white-op rounded-lg p-10 md:p-16  md:mb-40 mb-20">
                     <img className="w-16 rounded-full mx-auto mb-3" alt="text" src={imgInes}></img>
@@ -107,7 +109,142 @@ function Proyectos(){
                     <p className="text-md md:text-xl text-center text-gray-600">CECILIA CASTAÑEDA / DESARROLLADORA DE SOFTWARE / ANALISTA DE DATOS</p>
                 </div>
             </div>
-            
+            </Carousel> */}
+         
+
+         {/* timeLime trabajos */}
+
+        <div className="container flex flex-col md:flex-row justify-around gap-3">
+            <div className="linea1">
+                <div className="flex justify-center">
+                    <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
+                        <div className='bg-black border-2 border-black'>
+                            <h4 className="text-center  font-semibold leading-7 pt-1 text-white px-2">MI EXPERIENCIA LABORAL</h4>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div className="justify-center flex my-10 md:my-26">
+                    
+                <div className="sm:w-[22rem] w-[20rem]">
+                    <ul className="w-full flex  flex-col !pl-0">
+                        <li className="flex relative flex-col gap-2 h-40">
+                            <span className="absolute left-0 grid justify-center bg-transparent transition-opacity duration-200 !w-[78px] timeline"  >
+                                <span className="w-0.5 h-full bg-blue-800"></span>
+                            </span>
+                            <div className="flex items-center gap-2 relative rounded-xl border-2 bg-indigo-200 py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/5">
+                                <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden bg-gray-900/10 py-[11px] px-3">
+                                    <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
+                                </span>
+                                <div className="flex flex-col gap-1">
+                                    <h6 className="block antialiased tracking-normal font-sans 
+                                    text-base font-semibold leading-relaxed text-gray-700">Editorial Santillana</h6>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Soporte de plataformas</p>
+                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2022 - 2023</h2>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="flex relative flex-col gap-2 h-40 ">
+                            <span className="absolute left-0 grid justify-center bg-transparent transition-opacity duration-200 !w-[78px] timeline" >
+                                <span className="w-0.5 h-full bg-indigo-400"></span>
+                            </span>
+                            <div className="flex items-center gap-2 relative rounded-xl  border-2 bg-indigo-200  py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/5">
+                                <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden   bg-gray-900/10 py-[11px] px-3">
+                                        <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
+                                </span>
+                                <div className="flex flex-col gap-1">
+                                    <h6 className="block antialiased tracking-normal font-sans 
+                                    text-base font-semibold leading-relaxed text-gray-700">Ibella Group</h6>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Community Manager</p>
+                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2021</h2>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="flex relative flex-col gap-2 h-40">
+                            <div className="flex items-center gap-4 relative rounded-xl border-2 bg-indigo-200  py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/1">
+                                <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden   bg-gray-900/10 py-[11px] px-3">
+                                        <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
+                                </span>
+                                <div className="flex flex-col gap-1">
+                                    <h6 className="block antialiased tracking-normal font-sans 
+                                    text-base font-semibold leading-relaxed text-gray-700">Visual Creative</h6>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Maquetadora web</p>
+                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2018 - 2020</h2>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+             
+
+
+            <div className="linea1">
+                <div className="flex justify-center">
+                    <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
+                        <div className='bg-black border-2 border-black'>
+                            <h4 className="text-center  font-semibold leading-7 pt-1 text-white px-2">FORMACIÓN</h4>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div className="justify-center flex my-10 md:my-26">
+                    
+                <div className="sm:w-[22rem] w-[20rem]">
+                    <ul className="w-full flex  flex-col !pl-0">
+                        <li className="flex relative flex-col gap-2 h-40">
+                            <span className="absolute left-0 grid justify-center bg-transparent transition-opacity duration-200 !w-[78px] timeline"  >
+                                <span className="w-0.5 h-full bg-blue-800"></span>
+                            </span>
+                            <div className="flex items-center gap-2 relative rounded-xl border-2 bg-indigo-200 py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/5">
+                                <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden bg-gray-900/10 py-[11px] px-3">
+                                    <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
+                                </span>
+                                <div className="flex flex-col gap-1">
+                                    <h6 className="block antialiased tracking-normal font-sans 
+                                    text-base font-semibold leading-relaxed text-gray-700">Editorial Santillana</h6>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Soporte de plataformas</p>
+                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2022 - 2023</h2>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="flex relative flex-col gap-2 h-40 ">
+                            <span className="absolute left-0 grid justify-center bg-transparent transition-opacity duration-200 !w-[78px] timeline" >
+                                <span className="w-0.5 h-full bg-indigo-400"></span>
+                            </span>
+                            <div className="flex items-center gap-2 relative rounded-xl  border-2 bg-indigo-200  py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/5">
+                                <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden   bg-gray-900/10 py-[11px] px-3">
+                                        <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
+                                </span>
+                                <div className="flex flex-col gap-1">
+                                    <h6 className="block antialiased tracking-normal font-sans 
+                                    text-base font-semibold leading-relaxed text-gray-700">Ibella Group</h6>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Community Manager</p>
+                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2021</h2>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="flex relative flex-col gap-2 h-40">
+                            <div className="flex items-center gap-4 relative rounded-xl border-2 bg-indigo-200  py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/1">
+                                <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden   bg-gray-900/10 py-[11px] px-3">
+                                        <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
+                                </span>
+                                <div className="flex flex-col gap-1">
+                                    <h6 className="block antialiased tracking-normal font-sans 
+                                    text-base font-semibold leading-relaxed text-gray-700">Visual Creative</h6>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Maquetadora web</p>
+                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2018 - 2020</h2>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+         
+         
         </div>
     </div>
     )

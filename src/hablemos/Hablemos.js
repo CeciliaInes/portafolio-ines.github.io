@@ -18,7 +18,7 @@ function Hablemos(){
                              
                                 <div className='border-l-[3px] border-b-[3px] border-white mb-3'>
                                     <div className='bg-black border-2 border-black'>
-                                        <h4 className="text-center font-semibold leading-7 pt-1 text-white ">Contáctame</h4>
+                                        <h4 className="text-center font-semibold leading-7 pt-1 text-white ">CONTÁCTAME</h4>
                                     </div>
                                 </div>
                                 <p className="text-sm text-center leading-6 text-gray-600">Si está interesado en trabajar conmigo en su próximo proyecto,
