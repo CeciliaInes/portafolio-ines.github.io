@@ -45,10 +45,11 @@ function Hablemos(){
                                 <div className="grid grid-col-1 ">
                                     <div className="mb-3">
                                         <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-gray-900">
-                                            Nombre completo
+                                            Nombre <span className='text-red'>*</span>
                                         </label>
                                         <div className="mt-1">
                                             <input
+                                            required
                                             type='text'
                                             name='user_name'
                                             id="first-name"
@@ -60,10 +61,11 @@ function Hablemos(){
 
                                     <div className="mb-3">
                                         <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
-                                            Correo electrónico
+                                            Correo electrónico <span className='text-red'>*</span>
                                         </label>
                                         <div className="mt-1">
                                             <input
+                                            required
                                             id="email"
                                             name='user_email'
                                             type='email'
@@ -73,10 +75,11 @@ function Hablemos(){
                                     </div>
                                     <div className="mb-3">
                                         <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
-                                            Mensaje
+                                            Mensaje <span className='text-red'>*</span>
                                         </label>
                                         <div className="mt-1">
                                             <textarea
+                                            required
                                             id="message"
                                             name='message'
                                             type='message'

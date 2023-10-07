@@ -1,8 +1,14 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown, faPhone} from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown} from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import project1 from '../assets/maqueta.jpg';
 import project2 from '../assets/gallery.jpg';
+import area from '../assets/exp_for/area51.jpg';
+import isil from '../assets/exp_for/isil.jpg';
+import lab from '../assets/exp_for/lab.jpg';
+import vc from '../assets/exp_for/vc.jpg';
+import ibella from '../assets/exp_for/ibella.jpg';
+import sant from '../assets/exp_for/santillana.jpg';
  
 
 function Proyectos(){
@@ -121,9 +127,7 @@ function Proyectos(){
                                 <span className="w-0.5 h-full bg-blue-800"></span>
                             </span>
                             <div className="flex items-center gap-2 relative rounded-xl border-2 bg-indigo-200 py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/5">
-                                <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden bg-gray-900/10 py-[11px] px-3">
-                                    <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
-                                </span>
+                                <img className='rounded-full w-14 h-auto z-[2]' alt='Editorial Santillana' src={sant}></img>
                                 <div className="flex flex-col gap-1">
                                     <h6 className="block antialiased tracking-normal font-sans 
                                     text-base font-semibold leading-relaxed text-gray-700">Editorial Santillana</h6>
@@ -137,9 +141,7 @@ function Proyectos(){
                                 <span className="w-0.5 h-full bg-indigo-400"></span>
                             </span>
                             <div className="flex items-center gap-2 relative rounded-xl  border-2 bg-indigo-200  py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/5">
-                                <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden   bg-gray-900/10 py-[11px] px-3">
-                                        <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
-                                </span>
+                                <img className='rounded-full w-14 h-auto z-[2]' alt='Ibella' src={ibella}></img>
                                 <div className="flex flex-col gap-1">
                                     <h6 className="block antialiased tracking-normal font-sans 
                                     text-base font-semibold leading-relaxed text-gray-700">Ibella Group</h6>
@@ -150,9 +152,7 @@ function Proyectos(){
                         </li>
                         <li className="flex relative flex-col gap-2 h-40">
                             <div className="flex items-center gap-2 relative rounded-xl border-2 bg-indigo-200  py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/1">
-                                <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden   bg-gray-900/10 py-[11px] px-3">
-                                        <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
-                                </span>
+                                <img className='rounded-full w-14 h-auto z-[2]' alt='Visual Creative' src={vc}></img>
                                 <div className="flex flex-col gap-1">
                                     <h6 className="block antialiased tracking-normal font-sans 
                                     text-base font-semibold leading-relaxed text-gray-700">Visual Creative</h6>
@@ -186,13 +186,11 @@ function Proyectos(){
                                 <span className="w-0.5 h-full bg-blue-800"></span>
                             </span>
                             <div className="flex items-center gap-2 relative rounded-xl border-2 bg-indigo-200 py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/5">
-                                <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden bg-gray-900/10 py-[11px] px-3">
-                                    <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
-                                </span>
+                                <img className='rounded-full w-14 h-auto z-[2]' alt='Laboratoria' src={lab}></img>
                                 <div className="flex flex-col gap-1">
                                     <h6 className="block antialiased tracking-normal font-sans 
                                     text-base font-semibold leading-relaxed text-gray-700">Laboratoria</h6>
-                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Bootcamp Análisis de datos</p>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Bootcamp de Análisis de datos</p>
                                     <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2022</h2>
                                 </div>
                             </div>
@@ -202,9 +200,7 @@ function Proyectos(){
                                 <span className="w-0.5 h-full bg-indigo-400"></span>
                             </span>
                             <div className="flex items-center gap-2 relative rounded-xl  border-2 bg-indigo-200  py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/5">
-                                <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden   bg-gray-900/10 py-[11px] px-3">
-                                        <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
-                                </span>
+                                <img className='rounded-full w-14 h-auto z-[2]' alt='Instituto San Ignacio de Loyola' src={isil}></img>
                                 <div className="flex flex-col gap-1">
                                     <h6 className="block antialiased tracking-normal font-sans 
                                     text-base font-semibold leading-relaxed text-gray-700">ISIL</h6>
@@ -215,13 +211,11 @@ function Proyectos(){
                         </li>
                         <li className="flex relative flex-col gap-2 h-40">
                             <div className="flex items-center gap-2 relative rounded-xl border-2 bg-indigo-200  py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/1">
-                                <span className="w-max relative z-[2] flex-shrink-0 rounded-full overflow-hidden   bg-gray-900/10 py-[11px] px-3">
-                                        <FontAwesomeIcon className="text-white" icon={faPhone} size="md"/>
-                                </span>
+                                <img className='rounded-full w-14 h-auto z-[2]' alt='Area 51 Trainning Center' src={area}></img>
                                 <div className="flex flex-col gap-1">
                                     <h6 className="block antialiased tracking-normal font-sans 
                                     text-base font-semibold leading-relaxed text-gray-700">Área 51 Trainning</h6>
-                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">HTML, CSS Y JQUERY</p>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">HTML, CSS y JQUERY</p>
                                     <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2018</h2>
                                 </div>
                             </div>
