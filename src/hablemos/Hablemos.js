@@ -15,7 +15,10 @@ function Hablemos(){
         emailjs.sendForm('service_5sykaeg', 'template_kdsin8b', form.current, 'YEloQe7kRbAkOEBuj')
           .then((result) => {
               console.log(result.text);
-              form.current.reset()
+              form.current.reset();
+              if(result.text=='OK'){
+               document.getElementById("textOK").append("¡El envio ha sido exitoso! Pronto me pondré en contacto contigo ☺️");
+                }
           }, (error) => {
               console.log(error.text);
           });
@@ -65,13 +68,12 @@ function Hablemos(){
                                         </label>
                                         <div className="mt-1">
                                             <input
-                                            required
-                                            id="email"
+                                             id="email"
                                             name='user_email'
                                             type='email'
                                             className="block w-full px-2 rounded-md border-0 outline-none py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                             />
-                                        </div>
+                                          </div>
                                     </div>
                                     <div className="mb-3">
                                         <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
@@ -81,9 +83,10 @@ function Hablemos(){
                                             <textarea
                                             required
                                             id="message"
+                                            maxLength={400}
                                             name='message'
                                             type='message'
-                                            className="block w-full px-2 rounded-md outline-none border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                            className="newformat block w-full px-2 rounded-md outline-none border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                             />
                                         </div>
                                     </div>
@@ -98,7 +101,7 @@ function Hablemos(){
                             >
                             ENVIAR MENSAJE
                             </button>
-                            
+                            <p id='textOK' className='mt-4 text-center'></p>
                         </div>
                         
                     </form>

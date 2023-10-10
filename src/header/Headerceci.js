@@ -7,7 +7,7 @@ import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-ic
     const navigation = [
         { name: 'HOLA', href: '#hola', current: true },
         { name: 'PROYECTOS', href: '#proyectos', current: true },
-        { name: 'CONTÁCTAME', href: '#contactame', current: true },
+        { name: 'CONTÁCTAME', href: '#contactame', current: true }
     ]
 
 function Headerceci() {
@@ -31,9 +31,8 @@ function Headerceci() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className=  ' text-black no-underline hover:text-gray-500 px-3 py-2 text-md font-bold'
-                        aria-current={item.current ? 'page' : undefined}
-                      >
+                        className=  'text-black no-underline px-3 py-2 text-md font-bold hover:scale-110 duration-300'
+                        aria-current={item.current ? 'page' : undefined}>
                         {item.name}
                       </a>
                     ))}

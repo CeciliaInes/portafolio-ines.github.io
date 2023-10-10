@@ -20,15 +20,29 @@ body{
   left: 0 !important;
   right: 0 !important;
 }
+.gap-18{
+  gap:72px
+}
 .text-red{
   --tw-bg-opacity: 1;
   color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+.display-n{
+  display: none;
+}
+.newformat{
+  form-sizing:content;
+  resize: none;
+  height: 80px;
 }
  
 @layer{
   .icon-gen{
     @apply duration-500  cursor-pointer hover:text-white
      px-2 py-2 shadow-md  bg-indigo-400 rounded-sm
+  }
+  .icons img{
+    @apply my-4
   }
   .bg-white-op {
     --tw-bg-opacity: .3 !important;
