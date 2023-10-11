@@ -58,7 +58,7 @@ body{
     !duration-300 !text-white cursor-pointer px-2 py-2 !shadow-md  !bg-indigo-400  
   }
   .nav-item   .active{
-    @apply !scale-110
+    @apply !scale-110 !font-semibold
   }
   
   .icon-gen{
