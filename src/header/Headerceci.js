@@ -4,12 +4,13 @@ import documentCV from '../assets/Cecilia_Castaneda_CV.pdf';
 import imageLogo from '../assets/logo_ceci.png';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
+
     const navigation = [
         { name: 'HOLA', href: '#hola', current: true },
         { name: 'PROYECTOS', href: '#proyectos', current: true },
         { name: 'CONTÁCTAME', href: '#contactame', current: true }
     ]
-
+  
 function Headerceci() {
     let name = "Cecilia";
     let linkedin = "https://www.linkedin.com/in/ines-castañeda-886a46212";
