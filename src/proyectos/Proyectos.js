@@ -194,7 +194,7 @@ function Proyectos(){
                             {/* TITULO */}
                             <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
                                 <div className='bg-black border-2 border-black'>
-                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">START UP</h5>
+                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">PROYECTO COVID</h5>
                                 </div>
                             </div>
                             <p>Accede a mi proyecto de libros digitales, hecho con HTML, CSS Y JAVASCRIPT</p>
@@ -221,7 +221,7 @@ function Proyectos(){
                             {/* TITULO */}
                             <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
                                 <div className='bg-black border-2 border-black'>
-                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">E-COMMERCE</h5>
+                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">STARTUP</h5>
                                 </div>
                             </div>
                             <p>Accede a mi proyecto de Galeria utilizando Grid Content</p>
@@ -246,7 +246,7 @@ function Proyectos(){
                             {/* TITULO */}
                             <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
                                 <div className='bg-black border-2 border-black'>
-                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">START UP</h5>
+                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">E-COMMERCE</h5>
                                 </div>
                             </div>
                             <p>Accede a mi proyecto de libros digitales, hecho con HTML, CSS Y JAVASCRIPT</p>
