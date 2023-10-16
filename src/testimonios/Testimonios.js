@@ -19,7 +19,7 @@ function Testimonios(){
             {/* TESTIMONIOS */}
 
             <Carousel data-bs-theme="dark" className='container mx-auto mb-20 mt-8 md:mb-32 md:mt-16' activeIndex={index} onSelect={handleSelect}>
-                <Carousel.Item className='bg-white-op rounded-lg p-8 md:p-10 '>
+                <Carousel.Item className='bg-white-op rounded-lg p-8 md:p-10'>
                     <div text="Primer slide">
                         <img className="w-16 mx-auto rounded-full mb-3" alt="avatar1" src={imgInes}></img>
                         <Carousel.Caption className='w-4/5 mx-auto'>

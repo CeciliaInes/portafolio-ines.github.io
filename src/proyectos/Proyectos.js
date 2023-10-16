@@ -34,9 +34,9 @@ function Proyectos(){
     return(
     <div>
         <div id="proyectos" className="mx-auto mt-20  md:mt-40 w-3/5 mb-20 md:mb-40">
-            <p className="text-lg md:text-2xl text-center  mb-4">A lo largo de mis estudios y proyectos, 
-            he trabajado con las siguientes tecnologías.</p>
-            <p className="font-bold text-center">Aquí hay algunos que me gustaría compartir contigo.</p>
+            <p className="text-lg md:text-2xl text-center  mb-4">A lo largo de mis estudios y proyectos 
+            he trabajado con difirentes tecnologías que me han permitido ampliar mis conocimientos en el mundo del Software.</p>
+            <p className="font-bold text-center">Estas son algunas de las tecnologías.</p>
              
             <div className="icons justify-around grid grid-cols-4 lg:grid-cols-8">
                 
@@ -116,7 +116,7 @@ function Proyectos(){
                                     <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">MAQUETAS PLAN LECTOR</h5>
                                 </div>
                             </div>
-                            <p >Maqueta realizada con HTML, CSS, Y JS, fui la encargada de realizar la maquetación de todas las obras de Plan Lector de la Editorial.</p>
+                            <p >Maqueta realizada con HTML, CSS Y JS, fui la encargada de realizar la maquetación de todas las obras de Plan Lector de la Editorial.</p>
                             <div className="gap-3 flex">
                                 <a href="https://maqueta-plan-lector.vercel.app" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                                     Ver proyecto
@@ -143,7 +143,7 @@ function Proyectos(){
                                     <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">LIBRO DIGITAL</h5>
                                 </div>
                             </div>
-                            <p>Accede a mi proyecto de libros digitales, hecho con HTML, CSS Y JS</p>
+                            <p>En este proyecto participé estandarizando las actividades de este fascículo.</p>
                             <div className="gap-3 flex">
                                 <a href="https://fasciculo-richmond.vercel.app" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                                     Ver proyecto
@@ -201,7 +201,7 @@ function Proyectos(){
                                     <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">PROYECTO COVID</h5>
                                 </div>
                             </div>
-                            <p>En este proyecto utilicé la herramienta "Spreadsheets" de google, aquí implemente gráficos y tablas dinámicas. </p>
+                            <p>En este proyecto utilicé la herramienta "Spreadsheets" de google, implementando gráficos y tablas dinámicas. </p>
                             <div className="gap-3 flex">
                                 <a href="https://docs.google.com/spreadsheets/d/1Vw22uJoawfUKAlZ8rwBvRDh7OFOKuVPp0-Vtf7dQKD8/edit?usp=sharing" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                                     Ver proyecto
@@ -226,7 +226,7 @@ function Proyectos(){
                                     <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">RETENCIÓN STARTUP</h5>
                                 </div>
                             </div>
-                            <p>En este proyecto utilicé la herramienta "Spreadsheets" de google y para la presentación, diapositivas con los gráficos extraidos de Spreadsheets.</p>
+                            <p>En este proyecto utilicé la herramienta "Spreadsheets" de google y para la presentación, diapositivas con los gráficos extraídos de Spreadsheets.</p>
                             <div className="gap-3 flex">
                                 <a href="https://drive.google.com/drive/folders/1pFQaa0dw2JeDeONqHkecC39EvcPLEWM7?usp=sharing" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                                     Ver proyecto
@@ -248,7 +248,7 @@ function Proyectos(){
                                     <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">E-COMMERCE</h5>
                                 </div>
                             </div>
-                            <p>Para este proyecto implemente la herramienta LookerStudio como visualizador de datos.</p>
+                            <p>Para este proyecto implemente la herramienta LookerStudio como visualizador de datos, los datos los trabajé en "Spreadsheets".</p>
                             <div className="gap-3 flex">
                                 <a href="https://docs.google.com/spreadsheets/d/1WXmka574CFelIq2xxc6duJ3oF6I1py5BErnk8yKevKU/edit?usp=sharing" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                                     Ver proyecto
@@ -263,13 +263,13 @@ function Proyectos(){
                     
                 </div>
                 {/* ITEM 4 DE PROYECTO DE DATA ANALYST */}
-                <div>
+                {/* <div>
                     <div  className="sm:flex sm:w-4/6 container justify-around gap-x-4 sm:flex-row-reverse mb-20">
                         <div className="sm:flex-1 my-4">
                             <img className="max-w-xs md:max-w-sm m-auto" alt="Proyecto Cancelación hotelera" src={startup}></img>
                         </div>
                         <div className="sm:flex-1 my-4  align-self-center">
-                            {/* TITULO */}
+                            
                             <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
                                 <div className='bg-black border-2 border-black'>
                                     <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">CANCELACIONES HOTELERAS</h5>
@@ -283,7 +283,7 @@ function Proyectos(){
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 
 
@@ -345,8 +345,8 @@ function Proyectos(){
                                 <div className="flex flex-col gap-1">
                                     <h6 className="block antialiased tracking-normal font-sans 
                                     text-base font-semibold leading-relaxed text-gray-700">Visual Creative</h6>
-                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Maquetadora web</p>
-                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2018 - 2020</h2>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Programadora web Jr.</p>
+                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2018 - 2021</h2>
                                 </div>
                             </div>
                         </li>

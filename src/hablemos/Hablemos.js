@@ -25,7 +25,7 @@ function Hablemos(){
       };
 
 
-    let linkedin = "https://www.linkedin.com/in/ines-castañeda-886a46212";
+    let linkedin = "https://www.linkedin.com/in/ines-castañeda";
     let twitter = "https://twitter.com/cecixna";
     let gmail = "mailto:inescastaneda885@gmail.com";
     let github = "https://github.com/CeciliaInes";

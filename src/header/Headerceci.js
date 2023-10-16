@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import imagenAvatar from '../assets/profile.png';
-import documentCV from '../assets/Cecilia_Castaneda_CV.pdf';
+import documentCV from '../assets/analisis_de_datos_CV_CB.pdf';
 import imageLogo from '../assets/logo_ceci.png';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -13,7 +13,7 @@ import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-ic
   
 function Headerceci() {
     let name = "Cecilia";
-    let linkedin = "https://www.linkedin.com/in/ines-castañeda-886a46212";
+    let linkedin = "https://www.linkedin.com/in/ines-castañeda";
     let twitter = "https://twitter.com/cecixna";
     let gmail = "mailto:inescastaneda885@gmail.com";
     let github = "https://github.com/CeciliaInes";
@@ -54,8 +54,8 @@ function Headerceci() {
                 <div className='align-self-center sm:flex-1'>
                     <p className='md:text-3xl text-xl font-normal'>¡Hola a todos!</p>
                     <p className='md:text-5xl text-3xl font-normal'>Soy {name}</p>
-                    <p className='text-md'>Desarrolladora de Software, estoy feliz que me puedas conocer un poco más.
-                    Scrollea y verás.
+                    <p className='text-md'>Desarrolladora de Software y Analista de datos, estoy feliz de que me puedas conocer un poco más.
+                    Scrollea para ver más.
                     </p>
                     <div className='flex flex-row gap-3'> 
                         <a href={gmail} className='text-black'> <FontAwesomeIcon className='icon-gen border-2 animate border-black hover:scale-90' icon={faEnvelope} size="md"/></a>
