@@ -16,7 +16,7 @@ function Hablemos(){
           .then((result) => {
               console.log(result.text);
               form.current.reset();
-              if(result.text=='OK'){
+              if(result.text==='OK'){
                document.getElementById("textOK").append("¡El envio ha sido exitoso! Pronto me pondré en contacto contigo ☺️");
                 }
           }, (error) => {
@@ -43,8 +43,8 @@ function Hablemos(){
                                         <h4 className="text-center font-semibold leading-7 pt-1 text-white ">CONTÁCTAME</h4>
                                     </div>
                                 </div>
-                                <p className="text-sm text-center leading-6 text-gray-600">Si está interesado en trabajar conmigo en su próximo proyecto,
-                                no dude en ponerse en contacto conmigo.</p>
+                                <p className="text-sm text-center leading-6 text-gray-600">No dudes en contactarme si estás interesad@ 
+                                en contar conmigo para tu próximo proyecto.</p>
                                 <div className="grid grid-col-1 ">
                                     <div className="mb-3">
                                         <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-gray-900">
@@ -115,7 +115,7 @@ function Hablemos(){
                             <img alt='logo' width={150} src={imageLogo}></img>
                         </div>
                         <div>
-                            <p className='text-center'>Este sitio esta hecho con React, TailwindCSS y mucho AMOR para todos ustedes ♥</p>
+                            <p className='text-center'>Este sitio esta hecho con ReactJs, TailwindCSS y mucho AMOR para todos ustedes ♥</p>
                         </div>
                         <div className='flex align-self-center flex-row mx-auto gap-3 '> 
                         <a href={gmail} className='text-black'> <FontAwesomeIcon className='icon-gen border-2 animate border-black hover:scale-90' icon={faEnvelope} size="md"/></a>

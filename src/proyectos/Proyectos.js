@@ -21,6 +21,10 @@ import power from '../assets/logo_tech/powerBI.png';
 import git from '../assets/logo_tech/git.png';
 import githubi from '../assets/logo_tech/github.png';
 import ps from '../assets/logo_tech/photoshop.png';
+import startup from '../assets/startup.jpg';
+import ecommerce from '../assets/ecommerce.jpg';
+import covid from '../assets/covid.jpg';
+import fasciculo from '../assets/fasciculo.jpg';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
  
@@ -29,7 +33,7 @@ function Proyectos(){
   
     return(
     <div>
-        <div className="mx-auto mt-20  md:mt-40 w-3/5 mb-20 md:mb-40">
+        <div id="proyectos" className="mx-auto mt-20  md:mt-40 w-3/5 mb-20 md:mb-40">
             <p className="text-lg md:text-2xl text-center  mb-4">A lo largo de mis estudios y proyectos, 
             he trabajado con las siguientes tecnologías.</p>
             <p className="font-bold text-center">Aquí hay algunos que me gustaría compartir contigo.</p>
@@ -130,23 +134,23 @@ function Proyectos(){
                 <div>
                     <div  className="sm:flex sm:w-4/6 justify-around container gap-x-4 flex-row mb-20">
                         <div className="sm:flex-1 my-4">
-                            <img className="max-w-xs md:max-w-sm m-auto" alt="project1" src={project1}></img>
+                            <img className="max-w-xs md:max-w-sm m-auto" alt="project1" src={fasciculo}></img>
                         </div>
                         <div className="sm:flex-1 my-4  align-self-center">
                             {/* TITULO */}
-                            <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
+                            <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max'>
                                 <div className='bg-black border-2 border-black'>
-                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">MULTIMEDIA</h5>
+                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">LIBRO DIGITAL</h5>
                                 </div>
                             </div>
-                            <p>Accede a mi proyecto de libros digitales, hecho con HTML, CSS Y JAVASCRIPT</p>
+                            <p>Accede a mi proyecto de libros digitales, hecho con HTML, CSS Y JS</p>
                             <div className="gap-3 flex">
-                                <button className='hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
+                                <a href="https://fasciculo-richmond.vercel.app" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                                     Ver proyecto
-                                </button>
-                                <button className='hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm '>
+                                </a>
+                                {/* <button className='hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm '>
                                 <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Ver código
-                                </button>
+                                </button> */}
                             </div>
                         </div>
                         
@@ -188,7 +192,7 @@ function Proyectos(){
                 <div>
                     <div  className="sm:flex sm:w-4/6 justify-around container gap-x-4 flex-row mb-20">
                         <div className="sm:flex-1 my-4">
-                            <img className="max-w-xs md:max-w-sm m-auto" alt="project1" src={project1}></img>
+                            <img className="max-w-xs md:max-w-sm m-auto" alt="Proyecto COVID" src={covid}></img>
                         </div>
                         <div className="sm:flex-1 my-4  align-self-center">
                             {/* TITULO */}
@@ -197,14 +201,12 @@ function Proyectos(){
                                     <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">PROYECTO COVID</h5>
                                 </div>
                             </div>
-                            <p>Accede a mi proyecto de libros digitales, hecho con HTML, CSS Y JAVASCRIPT</p>
+                            <p>En este proyecto utilicé la herramienta "Spreadsheets" de google, aquí implemente gráficos y tablas dinámicas. </p>
                             <div className="gap-3 flex">
-                                <button className='hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
+                                <a href="https://docs.google.com/spreadsheets/d/1Vw22uJoawfUKAlZ8rwBvRDh7OFOKuVPp0-Vtf7dQKD8/edit?usp=sharing" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                                     Ver proyecto
-                                </button>
-                                <button className='hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm '>
-                                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Ver código
-                                </button>
+                                </a>
+                            
                             </div>
                         </div>
                         
@@ -215,22 +217,19 @@ function Proyectos(){
                 <div>
                     <div  className="sm:flex sm:w-4/6 container justify-around gap-x-4 sm:flex-row-reverse mb-20">
                         <div className="sm:flex-1 my-4">
-                            <img className="max-w-xs md:max-w-sm m-auto" alt="project1" src={project2}></img>
+                            <img className="max-w-xs md:max-w-sm m-auto" alt="Proyecto Retención de Startup" src={startup}></img>
                         </div>
                         <div className="sm:flex-1 my-4  align-self-center">
                             {/* TITULO */}
                             <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
                                 <div className='bg-black border-2 border-black'>
-                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">STARTUP</h5>
+                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">RETENCIÓN STARTUP</h5>
                                 </div>
                             </div>
-                            <p>Accede a mi proyecto de Galeria utilizando Grid Content</p>
+                            <p>En este proyecto utilicé la herramienta "Spreadsheets" de google y para la presentación, diapositivas con los gráficos extraidos de Spreadsheets.</p>
                             <div className="gap-3 flex">
-                                <a href="https://grid-gallery-omega.vercel.app" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
+                                <a href="https://drive.google.com/drive/folders/1pFQaa0dw2JeDeONqHkecC39EvcPLEWM7?usp=sharing" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                                     Ver proyecto
-                                </a>
-                                <a href="https://github.com/CeciliaInes/GridGallery" target="blank" className='no-underline hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm text-black'>
-                                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Ver código
                                 </a>
                             </div>
                         </div>
@@ -240,7 +239,7 @@ function Proyectos(){
                 <div>
                     <div  className="sm:flex sm:w-4/6 justify-around container gap-x-4 flex-row mb-20">
                         <div className="sm:flex-1 my-4">
-                            <img className="max-w-xs md:max-w-sm m-auto" alt="project1" src={project1}></img>
+                            <img className="max-w-xs md:max-w-sm m-auto" alt="Proyecto E-commerce" src={ecommerce}></img>
                         </div>
                         <div className="sm:flex-1 my-4  align-self-center">
                             {/* TITULO */}
@@ -249,19 +248,41 @@ function Proyectos(){
                                     <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">E-COMMERCE</h5>
                                 </div>
                             </div>
-                            <p>Accede a mi proyecto de libros digitales, hecho con HTML, CSS Y JAVASCRIPT</p>
+                            <p>Para este proyecto implemente la herramienta LookerStudio como visualizador de datos.</p>
                             <div className="gap-3 flex">
-                                <button className='hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
+                                <a href="https://docs.google.com/spreadsheets/d/1WXmka574CFelIq2xxc6duJ3oF6I1py5BErnk8yKevKU/edit?usp=sharing" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                                     Ver proyecto
-                                </button>
-                                <button className='hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm '>
-                                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Ver código
-                                </button>
+                                </a>
+                                <a href="https://lookerstudio.google.com/reporting/ae16c877-c2a5-4817-8c11-269178835e4b" target="blank" className='no-underline hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm text-black'>
+                                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Ver reporte
+                                </a>
                             </div>
                         </div>
                         
                     </div>
                     
+                </div>
+                {/* ITEM 4 DE PROYECTO DE DATA ANALYST */}
+                <div>
+                    <div  className="sm:flex sm:w-4/6 container justify-around gap-x-4 sm:flex-row-reverse mb-20">
+                        <div className="sm:flex-1 my-4">
+                            <img className="max-w-xs md:max-w-sm m-auto" alt="Proyecto Cancelación hotelera" src={startup}></img>
+                        </div>
+                        <div className="sm:flex-1 my-4  align-self-center">
+                            {/* TITULO */}
+                            <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
+                                <div className='bg-black border-2 border-black'>
+                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">CANCELACIONES HOTELERAS</h5>
+                                </div>
+                            </div>
+                            <p>Este proyecto lo trabaje con BigQuery en GCP y Power BI</p>
+                            <div className="gap-3 flex">
+                                <a href="https://drive.google.com/drive/folders/1pFQaa0dw2JeDeONqHkecC39EvcPLEWM7?usp=sharing" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
+                                    Ver proyecto
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 
@@ -272,16 +293,7 @@ function Proyectos(){
         </Tabs>
 
      
-        
-     
 
-
-
- 
-     
-
-            
-         
 
          {/* timeLime trabajos */}
 
