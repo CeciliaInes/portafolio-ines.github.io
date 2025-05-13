@@ -311,6 +311,20 @@ function Proyectos(){
                     
                 <div className="sm:w-[22rem] w-[20rem]">
                     <ul className="w-full flex  flex-col !pl-0">
+                         <li className="flex relative flex-col gap-2 h-40">
+                            <span className="absolute left-0 grid justify-center bg-transparent transition-opacity duration-200 !w-[78px] timeline"  >
+                                <span className="w-0.5 h-full bg-blue-800"></span>
+                            </span>
+                            <div className="flex items-center gap-2 relative rounded-xl border-2 bg-indigo-200 py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/5">
+                                <img className='rounded-full w-14 h-auto z-[2]' alt='Decorplas' src={sant}></img>
+                                <div className="flex flex-col gap-1">
+                                    <h6 className="block antialiased tracking-normal font-sans 
+                                    text-base font-semibold leading-relaxed text-gray-700">Decorplas</h6>
+                                    <p className="block antialiased font-sans text-md leading-normal text-gray-700 font-normal">Gestora de Marketplace</p>
+                                    <h2 className="block antialiased font-sans text-sm leading-normal text-gray-700 font-bold">2023 - 2025</h2>
+                                </div>
+                            </div>
+                        </li>
                         <li className="flex relative flex-col gap-2 h-40">
                             <span className="absolute left-0 grid justify-center bg-transparent transition-opacity duration-200 !w-[78px] timeline"  >
                                 <span className="w-0.5 h-full bg-blue-800"></span>
