@@ -9,6 +9,7 @@ import lab from '../assets/exp_for/lab.jpg';
 import vc from '../assets/exp_for/vc.jpg';
 import ibella from '../assets/exp_for/ibella.jpg';
 import sant from '../assets/exp_for/santillana.jpg';
+import decor from '../assets/exp_for/decorplas.jpg';
 import html from '../assets/logo_tech/html.png';
 import css from '../assets/logo_tech/css.png';
 import js from '../assets/logo_tech/js.png';
@@ -316,7 +317,7 @@ function Proyectos(){
                                 <span className="w-0.5 h-full bg-blue-800"></span>
                             </span>
                             <div className="flex items-center gap-2 relative rounded-xl border-2 bg-indigo-200 py-2 pl-4 pr-6 shadow-md shadow-blue-gray-900/5">
-                                <img className='rounded-full w-14 h-auto z-[2]' alt='Decorplas' src={sant}></img>
+                                <img className='rounded-full w-14 h-auto z-[2]' alt='Decorplas' src={decor}></img>
                                 <div className="flex flex-col gap-1">
                                     <h6 className="block antialiased tracking-normal font-sans 
                                     text-base font-semibold leading-relaxed text-gray-700">Decorplas</h6>

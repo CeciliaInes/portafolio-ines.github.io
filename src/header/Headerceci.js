@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import imagenAvatar from '../assets/profile.png';
+import imagenAvatar from '../assets/profile2.png';
 import documentCV from '../assets/analisis_de_datos_CV_CB.pdf';
 import imageLogo from '../assets/logo_ceci.png';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons'
