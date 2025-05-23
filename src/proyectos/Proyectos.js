@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Tooltip } from '@material-tailwind/react';
-import project1 from '../assets/maqueta.jpg';
-import project2 from '../assets/gallery.jpg';
+// import project1 from '../assets/maqueta.jpg';
+// import project2 from '../assets/gallery.jpg';
 import area from '../assets/exp_for/area51.jpg';
 import isil from '../assets/exp_for/isil.jpg';
 import lab from '../assets/exp_for/lab.jpg';
@@ -13,20 +13,20 @@ import sant from '../assets/exp_for/santillana.jpg';
 import decor from '../assets/exp_for/decorplas.jpg';
 import html from '../assets/logo_tech/html.png';
 import css from '../assets/logo_tech/css.png';
-import js from '../assets/logo_tech/js.png';
-import react from '../assets/logo_tech/reactjs.png';
-import tailwind from '../assets/logo_tech/tailwindcss.png';
+// import js from '../assets/logo_tech/js.png';
+// import react from '../assets/logo_tech/reactjs.png';
+// import tailwind from '../assets/logo_tech/tailwindcss.png';
 import sql from '../assets/logo_tech/sql.png';
 import excel from '../assets/logo_tech/excel.png';
 import python from '../assets/logo_tech/python.png';
 import power from '../assets/logo_tech/powerBI.png';
-import git from '../assets/logo_tech/git.png';
+// import git from '../assets/logo_tech/git.png';
 import githubi from '../assets/logo_tech/github.png';
 import ps from '../assets/logo_tech/photoshop.png';
 import startup from '../assets/startup.jpg';
 import ecommerce from '../assets/ecommerce.jpg';
 import covid from '../assets/covid.jpg';
-import fasciculo from '../assets/fasciculo.jpg';
+// import fasciculo from '../assets/fasciculo.jpg';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
  
@@ -41,32 +41,22 @@ function Proyectos(){
             <p className="font-bold text-center">Estas son algunas de las tecnologías.</p>
              
             <div className="icons justify-around grid grid-cols-4 lg:grid-cols-8">
-                
+                    <div className="display-n lg:block"></div>
+                    <div className="display-n lg:block"></div>
                     <Tooltip content="HTML 5">
                         <img src={html} className="lg:w-14 w-11 h-auto" alt="Html5"></img>
                     </Tooltip>
                     <Tooltip content="CSS 3">
                         <img src={css} className="lg:w-14 w-11 h-auto" alt="Css3"></img>
                     </Tooltip>
-                    <Tooltip content="JavaScript">
-                        <img src={js} className="lg:w-14 w-11 h-auto" alt="JavaScript"></img>
-                    </Tooltip>
-                    <Tooltip content="React JS">
-                        <img src={react} className="lg:w-14 w-11 h-auto" alt="ReactJS"></img> 
-                    </Tooltip>
-               
-                    <Tooltip content="Tailwind CSS">
-                        <img src={tailwind} className="lg:w-14 w-11 h-auto" alt="TailwindCSS"></img> 
-                    </Tooltip>
                     <Tooltip content="Photoshop">
                         <img src={ps} className="lg:w-14 w-11 h-auto" alt="Photoshop"></img> 
-                    </Tooltip>
-                    <Tooltip content="Git"> 
-                        <img src={git} className="lg:w-14 w-11 h-auto" alt="git"></img> 
                     </Tooltip>
                     <Tooltip content="Github"> 
                         <img src={githubi} className="lg:w-14 w-11 h-auto" alt="github"></img> 
                     </Tooltip>
+                    <div className="display-n lg:block"></div>
+                    <div className="display-n lg:block"></div>
                 
             </div>  
             <div className="icons justify-start grid grid-cols-4 lg:grid-cols-8">
@@ -95,7 +85,7 @@ function Proyectos(){
         <div className="flex justify-center">
             <div className='border-l-[3px] border-b-[3px] border-white mb-10 w-max '>
                 <div className='bg-black border-2 border-black'>
-                    <h4 className="text-center  font-semibold leading-7 pt-1 text-white px-2">MIS PROYECTOS</h4>
+                    <h4 className="text-center  font-semibold leading-7 pt-1 text-white px-2">MIS PROYECTOS DE ANÁLISIS DE DATOS</h4>
                 </div>
             </div>
         </div>
@@ -105,88 +95,6 @@ function Proyectos(){
         id="uncontrolled-tab-example"
         className="mb-3 justify-center container mx-auto"
         >
-            <Tab className="text-bold" eventKey="frontend" title="Front-end Developer">
-                <div>
-                    <div className=" sm:flex sm:w-4/6 container justify-around gap-x-4 sm:flex-row-reverse mb-20">
-                        <div className="sm:flex-1 my-4">
-                            <img className="max-w-xs md:max-w-sm  m-auto" alt="project1" src={project1}></img>
-                        </div>
-                        <div className="sm:flex-1 my-4  align-self-center">
-                            {/* TITULO */}
-                            <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max'>
-                                <div className='bg-black border-2 border-black'>
-                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">MAQUETAS PLAN LECTOR</h5>
-                                </div>
-                            </div>
-                            <p >Maqueta realizada con HTML, CSS Y JS, fui la encargada de realizar la maquetación de todas las obras de Plan Lector de la Editorial.</p>
-                            <div className="gap-3 flex">
-                                <a href="https://maqueta-plan-lector.vercel.app" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
-                                    Ver proyecto
-                                </a>
-                                {/* <button className='hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm '>
-                                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Ver código
-                                </button> */}
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-
-                {/* Item 2 de proyectos */}
-                <div>
-                    <div  className="sm:flex sm:w-4/6 justify-around container gap-x-4 flex-row mb-20">
-                        <div className="sm:flex-1 my-4">
-                            <img className="max-w-xs md:max-w-sm m-auto" alt="project1" src={fasciculo}></img>
-                        </div>
-                        <div className="sm:flex-1 my-4  align-self-center">
-                            {/* TITULO */}
-                            <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max'>
-                                <div className='bg-black border-2 border-black'>
-                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">LIBRO DIGITAL</h5>
-                                </div>
-                            </div>
-                            <p>En este proyecto participé estandarizando las actividades de este fascículo.</p>
-                            <div className="gap-3 flex">
-                                <a href="https://fasciculo-richmond.vercel.app" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
-                                    Ver proyecto
-                                </a>
-                                {/* <button className='hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm '>
-                                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Ver código
-                                </button> */}
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-                
-
-                {/* Item 3 de proyectos */}
-                <div>
-                    <div  className="sm:flex sm:w-4/6 container justify-around gap-x-4 sm:flex-row-reverse mb-20">
-                        <div className="sm:flex-1 my-4">
-                            <img className="max-w-xs md:max-w-sm m-auto" alt="project1" src={project2}></img>
-                        </div>
-                        <div className="sm:flex-1 my-4  align-self-center">
-                            {/* TITULO */}
-                            <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
-                                <div className='bg-black border-2 border-black'>
-                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">GRID GALLERY</h5>
-                                </div>
-                            </div>
-                            <p>Accede a mi proyecto de Galeria utilizando Grid Content</p>
-                            <div className="gap-3 flex">
-                                <a href="https://grid-gallery-omega.vercel.app" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
-                                    Ver proyecto
-                                </a>
-                                <a href="https://github.com/CeciliaInes/GridGallery" target="blank" className='no-underline hover:scale-90 px-3 py-2 duration-300 border-black border-2 cursor-pointer rounded-3xl shadow-md text-sm text-black'>
-                                <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>  Ver código
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </Tab>
             <Tab eventKey="data" title="Data Analyst">
                 
 
@@ -265,7 +173,7 @@ function Proyectos(){
                     
                 </div>
                 {/* ITEM 4 DE PROYECTO DE DATA ANALYST */}
-                {/* <div>
+                <div>
                     <div  className="sm:flex sm:w-4/6 container justify-around gap-x-4 sm:flex-row-reverse mb-20">
                         <div className="sm:flex-1 my-4">
                             <img className="max-w-xs md:max-w-sm m-auto" alt="Proyecto Cancelación hotelera" src={startup}></img>
@@ -274,10 +182,10 @@ function Proyectos(){
                             
                             <div className='border-l-[3px] border-b-[3px] border-white mb-3 w-max '>
                                 <div className='bg-black border-2 border-black'>
-                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">CANCELACIONES HOTELERAS</h5>
+                                    <h5 className="text-center  font-semibold leading-7 pt-1 text-white px-2">REPORTE MENSUAL DE VENTAS</h5>
                                 </div>
                             </div>
-                            <p>Este proyecto lo trabaje con BigQuery en GCP y Power BI</p>
+                            <p>Los reportes lo realiza con excel utilizando gráficos, tablas dinámicas.</p>
                             <div className="gap-3 flex">
                                 <a href="https://drive.google.com/drive/folders/1pFQaa0dw2JeDeONqHkecC39EvcPLEWM7?usp=sharing" target="blank" className='no-underline hover:scale-90 px-3 py-2 bg-indigo-400 duration-300 border-black border-2 text-white cursor-pointer rounded-3xl shadow-md text-sm '>
                                     Ver proyecto
@@ -285,7 +193,7 @@ function Proyectos(){
                             </div>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
                 
 
